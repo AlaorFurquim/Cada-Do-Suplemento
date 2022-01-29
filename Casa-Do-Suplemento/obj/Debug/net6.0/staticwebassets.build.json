@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q+L/8sL9HaqrTSM90UKq2mWN9CROdoUk7jftvJqx5/Q=",
+  "Hash": "vJoMF/zovag5UtQVUTerfTEvk0NYX50cHiH7bZOQ3p4=",
   "Source": "Casa-Do-Suplemento",
   "BasePath": "_content/Casa-Do-Suplemento",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\carrossel-1.jpg",
+      "Identity": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\carrosel-01.jpg",
       "SourceId": "Casa-Do-Suplemento",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
       "BasePath": "_content/Casa-Do-Suplemento",
-      "RelativePath": "images/carrossel-1.jpg",
+      "RelativePath": "images/carrosel-01.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\carrossel-1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\carrosel-01.jpg"
     },
     {
-      "Identity": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\carrossel-2.jpg",
+      "Identity": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\carrosel-02.jpg",
       "SourceId": "Casa-Do-Suplemento",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
       "BasePath": "_content/Casa-Do-Suplemento",
-      "RelativePath": "images/carrossel-2.jpg",
+      "RelativePath": "images/carrosel-02.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\carrossel-2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\carrosel-02.jpg"
     },
     {
-      "Identity": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\carrossel-3.jpg",
+      "Identity": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\carrosel-03.jpg",
       "SourceId": "Casa-Do-Suplemento",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
       "BasePath": "_content/Casa-Do-Suplemento",
-      "RelativePath": "images/carrossel-3.jpg",
+      "RelativePath": "images/carrosel-03.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,24 +133,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\carrossel-3.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\carrossel-4.jpg",
-      "SourceId": "Casa-Do-Suplemento",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
-      "BasePath": "_content/Casa-Do-Suplemento",
-      "RelativePath": "images/carrossel-4.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\carrossel-4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\carrosel-03.jpg"
     },
     {
       "Identity": "C:\\Users\\alaor\\source\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\js\\site.js",
