@@ -1,10 +1,11 @@
 ﻿using Casa_Do_Suplemento.Context;
 using Casa_Do_Suplemento.Models;
+using Casa_Do_Suplemento.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Casa_Do_Suplemento.Repositories
 {
-    public class SuplementoRepository
+    public class SuplementoRepository : ISuplementoRepository
     {
         private readonly AppDbContext _context;
 

@@ -1,4 +1,6 @@
 ﻿using Casa_Do_Suplemento.Context;
+using Casa_Do_Suplemento.Repositories;
+using Casa_Do_Suplemento.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Casa_Do_Suplemento
@@ -17,6 +19,10 @@ namespace Casa_Do_Suplemento
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddTransient<ISuplementoRepository, SuplementoRepository>();
+            services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+
             services.AddControllersWithViews();
         }
 

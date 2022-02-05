@@ -2,7 +2,7 @@
 
 namespace Casa_Do_Suplemento.Repositories.Interfaces
 {
-    public interface ISuplmentoRepository
+    public interface ISuplementoRepository
     {
         IEnumerable<Suplemento> Suplementos { get; }
         IEnumerable<Suplemento> SuplementosPreferidos { get; }

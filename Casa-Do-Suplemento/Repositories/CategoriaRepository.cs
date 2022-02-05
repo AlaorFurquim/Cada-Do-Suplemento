@@ -4,7 +4,7 @@ using Casa_Do_Suplemento.Repositories.Interfaces;
 
 namespace Casa_Do_Suplemento.Repositories
 {
-    public class CategoriaRepository : ICategoriaRepository
+    public class CategoriaRepository :ICategoriaRepository
     {
         private readonly AppDbContext _context;
 
