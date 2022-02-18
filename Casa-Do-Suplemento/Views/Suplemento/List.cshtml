@@ -3,14 +3,18 @@
 <div>
     <h2>Todos os Suplementos</h2>
 </div>
-
+<div class = "container">
+    <div class = "row">
 @foreach(var suplemento in Model)
 {
-    <div >
-        <h4>@suplemento.Nome</h4>
+    <div class = "col-sm-4 col-md-4 col-lg-4" >
         <div class = "ImgSuplementos">
             <p><img src ="@suplemento.ImagemUrl"></p>
         </div>
         <h3>Preço : @suplemento.Preco.ToString("c")</h3>
+        <h4>@suplemento.Nome</h4>
+        <p>@suplemento.DescricaoCurta</p>
     </div>
 }
+</div>
+</div>
