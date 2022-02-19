@@ -1,20 +1,13 @@
-﻿@model IEnumerable<Casa_Do_Suplemento.Models.Suplemento>
+﻿@model SuplementoListViewModel
 
 <div>
-    <h2>Todos os Suplementos</h2>
+    <h2>@Model.CategoriaAtual</h2>
 </div>
 <div class = "container">
     <div class = "row">
-@foreach(var suplemento in Model)
+@foreach(var suplemento in Model.Suplemento)
 {
-    <div class = "col-sm-4 col-md-4 col-lg-4" >
-        <div class = "ImgSuplementos">
-            <p><img src ="@suplemento.ImagemUrl"></p>
-        </div>
-        <h3>Preço : @suplemento.Preco.ToString("c")</h3>
-        <h4>@suplemento.Nome</h4>
-        <p>@suplemento.DescricaoCurta</p>
-    </div>
+    <partial name = "_SuplementoResumo" for = "@suplemento"/>
 }
 </div>
 </div>
