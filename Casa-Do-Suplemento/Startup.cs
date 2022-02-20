@@ -22,8 +22,11 @@ namespace Casa_Do_Suplemento
 
             services.AddTransient<ISuplementoRepository, SuplementoRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddControllersWithViews();
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +46,7 @@ namespace Casa_Do_Suplemento
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseSession();
 
             app.UseAuthorization();
 
