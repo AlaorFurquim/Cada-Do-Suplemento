@@ -38,5 +38,51 @@ namespace Casa_Do_Suplemento.Models
             };
 
         }
+
+        public void AdicionarAoCarrinho(Suplemento suplemento)
+        {
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.
+            SingleOrDefault(s => s.Suplemento.SuplementoId == suplemento.SuplementoId && s.CarrinhoCompraId == CarrinhoCompraId);
+
+            if(carrinhoCompraItem == null)
+            {
+                carrinhoCompraItem = new CarrinhoCompraItem
+                {
+                    CarrinhoCompraId = CarrinhoCompraId,
+                    Suplemento = suplemento,
+                    Quantidade = 1
+                };
+                _context.CarrinhoCompraItens.Add(carrinhoCompraItem);
+            }
+            else
+            {
+                carrinhoCompraItem.Quantidade++;
+            }
+            _context.SaveChanges();
+        }
+
+        public void RemoveDoCarrinho(Suplemento suplemento)
+        {
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.
+            SingleOrDefault(s => s.Suplemento.SuplementoId == suplemento.SuplementoId && s.CarrinhoCompraId == CarrinhoCompraId);
+
+            
+
+            if(carrinhoCompraItem != null)
+            {
+                if (carrinhoCompraItem.Quantidade > 1)
+                {
+                    carrinhoCompraItem.Quantidade--;
+                    
+                }
+                else
+                {
+                    _context.CarrinhoCompraItens.Remove(carrinhoCompraItem);
+                }
+            }
+            _context.SaveChanges();
+            
+        }
+
     }
 }
