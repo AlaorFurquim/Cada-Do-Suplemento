@@ -1,4 +1,5 @@
 ﻿using Casa_Do_Suplemento.Context;
+using Casa_Do_Suplemento.Models;
 using Casa_Do_Suplemento.Repositories;
 using Casa_Do_Suplemento.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,7 @@ namespace Casa_Do_Suplemento
             services.AddTransient<ISuplementoRepository, SuplementoRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
             services.AddControllersWithViews();
             services.AddMemoryCache();

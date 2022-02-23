@@ -1,4 +1,5 @@
 ﻿using Casa_Do_Suplemento.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Casa_Do_Suplemento.Models
 {
@@ -80,9 +81,36 @@ namespace Casa_Do_Suplemento.Models
                     _context.CarrinhoCompraItens.Remove(carrinhoCompraItem);
                 }
             }
-            _context.SaveChanges();
-            
+            _context.SaveChanges();   
         }
 
+        public List<CarrinhoCompraItem> GetCarrinhoCompraItems()
+        {
+            return CarrinhoCompraItems ??
+                (CarrinhoCompraItems = _context.CarrinhoCompraItens.Where
+                (c => CarrinhoCompraId == CarrinhoCompraId)
+                .Include(s => s.Suplemento)
+                .ToList());
+
+        }
+
+        public void LimpaCarrinho()
+        {
+             var CarrinhoItens = _context.CarrinhoCompraItens.Where
+                (c => CarrinhoCompraId == CarrinhoCompraId);
+
+            _context.CarrinhoCompraItens.RemoveRange(CarrinhoItens);
+            _context.SaveChanges();
+
+        }
+
+        public decimal GetCarrinhoCompraTotal()
+        {
+            var total = _context.CarrinhoCompraItens.Where
+                (c => CarrinhoCompraId == CarrinhoCompraId)
+                .Select(c => c.Suplemento.Preco * c.Quantidade).Sum();
+
+            return total;
+        }
     }
 }
