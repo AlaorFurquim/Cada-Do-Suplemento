@@ -1,0 +1,63 @@
+﻿@model CarrinhoCompraViewModel
+
+<div class="container">
+    <div class="row">
+        <img src="~/images~/images/kisspng-shopping-cart-bag-clip-art-5ae505e36f2ab0.9551856915249586914554.png" />
+
+
+        <div>
+            <h4>Seu carrinho de compras : </h4>
+        </div>
+
+        <table class="table table-bordered table-striped">
+
+            <thead>
+                <tr>
+                    <th>Quantidade</th>
+                    <th>Suplemento</th>
+                    <th class="text-align">Preço</th>
+                    <th class="text-align">Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model.CarrinhoCompra.CarrinhoCompraItems)
+                {
+                    <tr>
+                        <td class="text-center"> @item.Quantidade</td>
+                        <td class="text-left">@item.Suplemento.Nome</td>
+                        <td class="text-rigth">@item.Suplemento.Preco</td>
+
+                        <td class="text-center">
+                            <a asp-controller="CarrinhoCompra" asp-action="RemoverItemNoCarrinhoCompra"
+                           asp-route-suplementoId="@item.Suplemento.SuplementoId">
+                                <img src="~/images/5598.jpg" />
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-center">Total:</td>
+                    <td class="text-right"></td>
+                    @Model.CarrinhoCompraTotal.ToString("c")
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <div class="text-center">
+            <div class="btn-group">
+                <a class="btn btn-sucess" asp-controller="Pedido" asp-action="Checkout">Encerrar Pedido</a>
+                &nbsp;&nbsp;&nbsp;
+                <a class="btn btn-primary" asp-controller="Suplemento" asp-action="List">Continuar Comprando</a>
+            </div>
+        </div>
+        <br />
+    </div>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VPUxF80yOtcRyXo/hxsdC2/qJejFHjR73Kt06/k1wtQ=",
+  "Hash": "1aSKdOQBKcw9wIs2HpSNVSoQKyZXmV1eo/0p+0rUGPY=",
   "Source": "Casa-Do-Suplemento",
   "BasePath": "_content/Casa-Do-Suplemento",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\5598.jpg",
+      "SourceId": "Casa-Do-Suplemento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
+      "BasePath": "_content/Casa-Do-Suplemento",
+      "RelativePath": "images/5598.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5598.jpg"
+    },
+    {
       "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\carrosel-01.jpg",
       "SourceId": "Casa-Do-Suplemento",
       "SourceType": "Discovered",
@@ -151,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\carrosel-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\kisspng-shopping-cart-bag-clip-art-5ae505e36f2ab0.9551856915249586914554.png",
+      "SourceId": "Casa-Do-Suplemento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
+      "BasePath": "_content/Casa-Do-Suplemento",
+      "RelativePath": "images/kisspng-shopping-cart-bag-clip-art-5ae505e36f2ab0.9551856915249586914554.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\kisspng-shopping-cart-bag-clip-art-5ae505e36f2ab0.9551856915249586914554.png"
     },
     {
       "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\js\\site.js",
