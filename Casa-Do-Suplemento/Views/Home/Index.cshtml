@@ -1,3 +1,13 @@
-﻿<h1>Casa do suplemento</h1>
+﻿@model HomeViewModel 
 
 <partial name ="_Carousel">
+
+<h2>Os mais pedidos da semana</h2>
+
+<div class = "row">
+    @foreach(var suplemento in Model.SuplementosPreferidos)
+        {
+            <partial name="_SuplementoResumo" for="@suplemento"/>
+        }
+
+</div>

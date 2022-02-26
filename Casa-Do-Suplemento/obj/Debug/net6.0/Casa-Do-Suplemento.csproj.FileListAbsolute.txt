@@ -521,3 +521,4 @@ C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\obj\Debug\net6.0\ref\Casa-Do-Suplemento.dll
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\obj\Debug\net6.0\Casa-Do-Suplemento.pdb
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\obj\Debug\net6.0\Casa-Do-Suplemento.genruntimeconfig.cache
+C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\obj\Debug\net6.0\Casa-Do-Suplemento.csproj.AssemblyReference.cache
