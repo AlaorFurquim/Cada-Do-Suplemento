@@ -55,8 +55,9 @@ namespace Casa_Do_Suplemento.Models
 
         public bool EmEstoque { get; set; }
 
-        public int CategoriaId { get; set; } // chave estrangeira
 
+        [Display(Name = "Categorias")]
+        public int CategoriaId { get; set; } // chave estrangeira
         public virtual Categoria Categoria { get; set; } // propriedade de navegacao
 
     }
