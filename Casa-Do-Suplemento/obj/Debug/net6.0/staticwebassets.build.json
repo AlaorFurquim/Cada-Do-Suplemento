@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ISGfdIomsx5txuuBr9iC3fGtgyomKcB9Gbp6BY5akHU=",
+  "Hash": "V+zKqGuTmsK+6UPg+BGfjlrHkohvZrJd23hTxEtWdBk=",
   "Source": "Casa-Do-Suplemento",
   "BasePath": "_content/Casa-Do-Suplemento",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\5598.jpg",
-      "SourceId": "Casa-Do-Suplemento",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
-      "BasePath": "_content/Casa-Do-Suplemento",
-      "RelativePath": "images/5598.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\5598.jpg"
     },
     {
       "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\Carrinho.Menu.png",
@@ -238,23 +221,6 @@
       "OriginalItemSpec": "wwwroot\\images\\envelope.png"
     },
     {
-      "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\kisspng-shopping-cart-bag-clip-art-5ae505e36f2ab0.9551856915249586914554.png",
-      "SourceId": "Casa-Do-Suplemento",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
-      "BasePath": "_content/Casa-Do-Suplemento",
-      "RelativePath": "images/kisspng-shopping-cart-bag-clip-art-5ae505e36f2ab0.9551856915249586914554.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\kisspng-shopping-cart-bag-clip-art-5ae505e36f2ab0.9551856915249586914554.png"
-    },
-    {
       "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\select.png",
       "SourceId": "Casa-Do-Suplemento",
       "SourceType": "Discovered",
@@ -270,6 +236,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\select.png"
+    },
+    {
+      "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\shopping-cart (1).png",
+      "SourceId": "Casa-Do-Suplemento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
+      "BasePath": "_content/Casa-Do-Suplemento",
+      "RelativePath": "images/shopping-cart (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\shopping-cart (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\trash.png",
+      "SourceId": "Casa-Do-Suplemento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
+      "BasePath": "_content/Casa-Do-Suplemento",
+      "RelativePath": "images/trash.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trash.png"
     },
     {
       "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\js\\site.js",

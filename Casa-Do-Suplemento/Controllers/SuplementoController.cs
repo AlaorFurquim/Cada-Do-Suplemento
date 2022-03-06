@@ -43,5 +43,12 @@ namespace Casa_Do_Suplemento.Controllers
 
             return View(suplementosListViewModel);
         }
+
+        public IActionResult Details (int suplementoId)
+        {
+            var suplemento = _suplementoRepository.Suplementos.FirstOrDefault(l => l.SuplementoId == suplementoId);
+            return View(suplemento);
+        }
     }
+
 }
