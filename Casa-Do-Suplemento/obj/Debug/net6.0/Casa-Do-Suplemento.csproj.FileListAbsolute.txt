@@ -267,7 +267,6 @@ C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Casa-Do-Suplemento.deps.json
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Casa-Do-Suplemento.runtimeconfig.json
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Casa-Do-Suplemento.dll
-C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\ref\Casa-Do-Suplemento.dll
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Casa-Do-Suplemento.pdb
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Humanizer.dll
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\MessagePack.dll
@@ -528,3 +527,4 @@ C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\obj\Debug\net6.0\Casa-Do-Suplemento.csproj.AssemblyReference.cache
+C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\obj\Debug\net6.0\refint\Casa-Do-Suplemento.dll

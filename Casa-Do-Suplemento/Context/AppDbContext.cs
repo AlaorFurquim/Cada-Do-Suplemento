@@ -15,5 +15,9 @@ namespace Casa_Do_Suplemento.Context
         public DbSet<Suplemento> Suplementos { get; set; }
 
         public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
+
+        public DbSet<Pedido> Pedidos { get; set; }
+
+        public DbSet<PedidoDetalhe> PedidoDetalhes { get; set; }
     }
 }
