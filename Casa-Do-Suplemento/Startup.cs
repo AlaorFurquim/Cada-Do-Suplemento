@@ -23,6 +23,7 @@ namespace Casa_Do_Suplemento
 
             services.AddTransient<ISuplementoRepository, SuplementoRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+            services.AddTransient<IPedidoRepository, PedidoRepository>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 

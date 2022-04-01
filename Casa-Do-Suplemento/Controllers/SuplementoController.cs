@@ -49,6 +49,35 @@ namespace Casa_Do_Suplemento.Controllers
             var suplemento = _suplementoRepository.Suplementos.FirstOrDefault(l => l.SuplementoId == suplementoId);
             return View(suplemento);
         }
+
+        public ViewResult Search(string searchString)
+        {
+            IEnumerable<Suplemento> suplementos;
+            string categoraiaAtual = string.Empty;
+
+            if (string.IsNullOrEmpty(searchString))
+            {
+                suplementos = _suplementoRepository.Suplementos.OrderBy(p => p.SuplementoId);
+                categoraiaAtual = "Todos os suplementos";
+            }
+            else
+            {
+                suplementos = _suplementoRepository.Suplementos
+                    .Where(p => p.Nome.ToLower().Contains(searchString.ToLower()));
+
+                if (suplementos.Any())
+                    categoraiaAtual = "suplementos";
+                else
+                    categoraiaAtual = "Nenhum suplemento localizado";
+            }
+
+            return View("~/Views/Suplemento/List.cshtml", new SuplementoListViewModel
+            {
+                Suplementos = suplementos,
+                CategoriaAtual = categoraiaAtual
+            }) ;
+        }
+
     }
 
 }

@@ -21,17 +21,23 @@
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li> 
-                        <li class="nav-item">
-                           @await Component.InvokeAsync("CategoriaMenu")
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a> 
+                            @await Component.InvokeAsync("CategoriaMenu")
                         </li>
-                         <li class="nav-item">
-                           @await Component.InvokeAsync("CarrinhoCompraResumo")
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
                         </li>
+                        <li class="nav-item">
+                            @await Component.InvokeAsync("CarrinhoCompraResumo")
+                        </li>
+
                     </ul>
+                    <form class="navbar-form navbar-right" asp-controller="suplemento" asp-action="Search" method="get">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="procurar produto" name="searchString" value="@ViewData["searchString"]">
+                    </div>
+                    </form>
                 </div>
             </div>
         </nav>
