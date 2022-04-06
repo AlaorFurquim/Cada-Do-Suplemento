@@ -25,7 +25,7 @@ namespace Casa_Do_Suplemento.Models
         public string Endereco2 { get; set; }
 
         [Required(ErrorMessage = "Informe o cep")]
-        [Display(Name = "Endereco")]
+        [Display(Name = "CEP")]
         [StringLength(10, MinimumLength = 8)]
         public string Cep { get; set; }
 
