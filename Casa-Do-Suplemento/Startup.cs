@@ -2,6 +2,7 @@
 using Casa_Do_Suplemento.Models;
 using Casa_Do_Suplemento.Repositories;
 using Casa_Do_Suplemento.Repositories.Interfaces;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Casa_Do_Suplemento
@@ -20,6 +21,10 @@ namespace Casa_Do_Suplemento
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
 
             services.AddTransient<ISuplementoRepository, SuplementoRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
@@ -51,6 +56,7 @@ namespace Casa_Do_Suplemento
             app.UseRouting();
             app.UseSession();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
