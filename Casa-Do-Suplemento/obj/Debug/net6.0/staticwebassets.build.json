@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V+zKqGuTmsK+6UPg+BGfjlrHkohvZrJd23hTxEtWdBk=",
+  "Hash": "5uMya8lOj4kQKbPskeoQtRbeLybFlaYpru/4RlrFUvA=",
   "Source": "Casa-Do-Suplemento",
   "BasePath": "_content/Casa-Do-Suplemento",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\envelope.png"
+    },
+    {
+      "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\keyhole.png",
+      "SourceId": "Casa-Do-Suplemento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
+      "BasePath": "_content/Casa-Do-Suplemento",
+      "RelativePath": "images/keyhole.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\keyhole.png"
     },
     {
       "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\select.png",
