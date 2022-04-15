@@ -31,10 +31,15 @@
                         <li class="nav-item">
                             @await Component.InvokeAsync("CarrinhoCompraResumo")
                         </li>
-
+                        
+                        
                     </ul>
+                    
+                    @await Html.PartialAsync("_LoginPartial")
+
                     <form class="navbar-form navbar-right" asp-controller="suplemento" asp-action="Search" method="get">
                     <div class="form-group">
+                       
                         <input type="text" class="form-control" placeholder="procurar produto" name="searchString" value="@ViewData["searchString"]">
                     </div>
                     </form>
