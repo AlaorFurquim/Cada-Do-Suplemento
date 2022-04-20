@@ -2,6 +2,7 @@
 using Casa_Do_Suplemento.Models;
 using Casa_Do_Suplemento.Repositories;
 using Casa_Do_Suplemento.Repositories.Interfaces;
+using Casa_Do_Suplemento.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -29,6 +30,16 @@ namespace Casa_Do_Suplemento
             services.AddTransient<ISuplementoRepository, SuplementoRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
             services.AddTransient<IPedidoRepository, PedidoRepository>();
+            services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Admin", politica =>
+                {
+                    politica.RequireRole("Admin");
+                });
+            });
+
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
@@ -38,7 +49,8 @@ namespace Casa_Do_Suplemento
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, 
+            IWebHostEnvironment env, ISeedUserRoleInitial seedUserRoleInitial)
         {
             if (env.IsDevelopment())
             {
@@ -54,6 +66,10 @@ namespace Casa_Do_Suplemento
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            seedUserRoleInitial.SeedRoles();
+            seedUserRoleInitial.SeedUsers();
+
             app.UseSession();
 
             app.UseAuthentication();
@@ -61,6 +77,14 @@ namespace Casa_Do_Suplemento
 
             app.UseEndpoints(endpoints =>
             {
+               
+                
+                    endpoints.MapControllerRoute(
+                      name: "areas",
+                      pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}"
+                    );
+                
+
                 endpoints.MapControllerRoute
                 (name: "categoriaFiltro",
                 pattern: "Suplemento/{action}/{categoria?}",

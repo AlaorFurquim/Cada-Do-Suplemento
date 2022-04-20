@@ -1,5 +1,6 @@
 ﻿using Casa_Do_Suplemento.Models;
 using Casa_Do_Suplemento.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Casa_Do_Suplemento.Controllers
@@ -15,12 +16,14 @@ namespace Casa_Do_Suplemento.Controllers
             _carrinhoCompra = carrinhoCompra;
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult Checkout()
         {
             return View();
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Checkout(Pedido pedido)
         {

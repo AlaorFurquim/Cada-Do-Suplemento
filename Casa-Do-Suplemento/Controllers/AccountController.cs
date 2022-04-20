@@ -63,6 +63,7 @@ namespace Casa_Do_Suplemento.Controllers
 
                 if (result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, "Member");
                     return RedirectToAction("Login", "Account");
                 }
                 else
@@ -80,6 +81,11 @@ namespace Casa_Do_Suplemento.Controllers
             HttpContext.User = null;
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
 
     }

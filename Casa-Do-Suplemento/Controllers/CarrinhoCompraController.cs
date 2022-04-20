@@ -1,6 +1,7 @@
 ﻿using Casa_Do_Suplemento.Models;
 using Casa_Do_Suplemento.Repositories.Interfaces;
 using Casa_Do_Suplemento.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Casa_Do_Suplemento.Controllers
@@ -31,6 +32,7 @@ namespace Casa_Do_Suplemento.Controllers
             return View(carrinhoCompraVM);
         }
 
+        [Authorize]
         public IActionResult AdicionarNoCarrinhoCompra(int SuplementoId)
         {
             var suplementoSelecionado = _suplementoRepository.Suplementos.FirstOrDefault(p => p.SuplementoId == SuplementoId);
@@ -42,6 +44,7 @@ namespace Casa_Do_Suplemento.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize]
         public IActionResult RemoverItemNoCarrinhoCompra(int SuplementoId)
         {
             var suplementoSelecionado = _suplementoRepository.Suplementos.FirstOrDefault(p => p.SuplementoId == SuplementoId);

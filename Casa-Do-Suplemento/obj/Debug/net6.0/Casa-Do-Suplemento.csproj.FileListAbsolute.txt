@@ -528,3 +528,8 @@ C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\obj\Debug\net6.0\Casa-Do-Suplemento.csproj.AssemblyReference.cache
 C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\obj\Debug\net6.0\refint\Casa-Do-Suplemento.dll
+C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\obj\Debug\net6.0\Casa-Do-Suplemento.MvcApplicationPartsAssemblyInfo.cs

@@ -15,6 +15,86 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminCategoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminCategoria/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminCategoria/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminCategoria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminCategoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminPedidos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminPedidos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminPedidos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminPedidos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminPedidos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminSuplemento/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TdXBsZW1lbnRvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminSuplemento/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TdXBsZW1lbnRvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminSuplemento/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TdXBsZW1lbnRvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminSuplemento/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TdXBsZW1lbnRvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminSuplemento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TdXBsZW1lbnRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
