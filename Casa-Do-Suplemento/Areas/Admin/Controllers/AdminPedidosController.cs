@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using Casa_Do_Suplemento.Context;
 using Casa_Do_Suplemento.Models;
 using Microsoft.AspNetCore.Authorization;
+using ReflectionIT.Mvc.Paging;
+using Microsoft.AspNetCore.Routing;
+using Casa_Do_Suplemento.ViewModels;
 
 namespace Casa_Do_Suplemento.Areas.Admin.Controllers
 {
@@ -22,10 +25,41 @@ namespace Casa_Do_Suplemento.Areas.Admin.Controllers
             _context = context;
         }
 
-        // GET: Admin/AdminPedidos
-        public async Task<IActionResult> Index()
+        public IActionResult PedidoSuplementos(int? id)
         {
-            return View(await _context.Pedidos.ToListAsync());
+            var pedido = _context.Pedidos
+                .Include(pd => pd.PedidoItens)
+                .ThenInclude( l => l.Suplemento)
+                .FirstOrDefault(p => p.PedidoId == id);
+
+            if (pedido == null)
+            {
+                Response.StatusCode = 404;
+                return View("PedidoNotFound", id.Value);
+            }
+
+            PedidoSuplementoViewModel pedidoSuplemento = new PedidoSuplementoViewModel()
+            {
+                Pedido = pedido,
+                PedidosDetalhes = pedido.PedidoItens
+            };
+            return View(pedidoSuplemento);
+        }
+
+        // GET: Admin/AdminPedidos
+        public async Task<IActionResult> Index(string filter, int pageindex = 1, string sort = "Nome")
+        {
+            var resultado = _context.Pedidos.AsNoTracking()
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                resultado = resultado.Where(p => p.Nome.Contains(filter));
+            }
+
+            var model = await PagingList.CreateAsync(resultado, 5, pageindex, sort, "Nome");
+            model.RouteValue = new RouteValueDictionary { { "filter", filter } };
+            return View(model);
         }
 
         // GET: Admin/AdminPedidos/Details/5

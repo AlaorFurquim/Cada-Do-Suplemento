@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Casa_Do_Suplemento.Context;
 using Casa_Do_Suplemento.Models;
 using Microsoft.AspNetCore.Authorization;
+using ReflectionIT.Mvc.Paging;
 
 namespace Casa_Do_Suplemento.Areas.Admin.Controllers
 {
@@ -23,10 +24,19 @@ namespace Casa_Do_Suplemento.Areas.Admin.Controllers
         }
 
         // GET: Admin/AdminSuplemento
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string filter, int pageindex = 1, string sort = "Nome")
         {
-            var appDbContext = _context.Suplementos.Include(s => s.Categoria);
-            return View(await appDbContext.ToListAsync());
+            var resultado = _context.Suplementos.AsNoTracking()
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                resultado = resultado.Where(p => p.Nome.Contains(filter));
+            }
+
+            var model = await PagingList.CreateAsync(resultado, 5, pageindex, sort, "Nome");
+            model.RouteValue = new RouteValueDictionary { { "filter", filter } };
+            return View(model);
         }
 
         // GET: Admin/AdminSuplemento/Details/5

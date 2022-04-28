@@ -1,10 +1,12 @@
-﻿using Casa_Do_Suplemento.Context;
+﻿using Casa_Do_Suplemento.Areas.Admin.Servicos;
+using Casa_Do_Suplemento.Context;
 using Casa_Do_Suplemento.Models;
 using Casa_Do_Suplemento.Repositories;
 using Casa_Do_Suplemento.Repositories.Interfaces;
 using Casa_Do_Suplemento.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ReflectionIT.Mvc.Paging;
 
 namespace Casa_Do_Suplemento
 {
@@ -31,6 +33,7 @@ namespace Casa_Do_Suplemento
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
             services.AddTransient<IPedidoRepository, PedidoRepository>();
             services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
+            services.AddScoped<RelatorioVendasService>();
 
             services.AddAuthorization(options =>
             {
@@ -44,6 +47,13 @@ namespace Casa_Do_Suplemento
             services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
             services.AddControllersWithViews();
+
+            services.AddPaging(options =>
+            {
+                options.ViewName = "Bootstrap4";
+                options.PageParameterName = "pageindex";
+            });
+
             services.AddMemoryCache();
             services.AddSession();
         }

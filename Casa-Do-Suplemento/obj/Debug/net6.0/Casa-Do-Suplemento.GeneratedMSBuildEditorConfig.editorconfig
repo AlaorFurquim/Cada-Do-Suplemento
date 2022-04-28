@@ -11,7 +11,7 @@ build_property.RootNamespace = Casa_Do_Suplemento
 build_property.ProjectDir = C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\alaor\source\repos\repos\Casa-Do-Suplemento\Casa-Do-Suplemento\Casa-Do-Suplemento
 build_property._RazorSourceGeneratorDebug = 
 
@@ -53,6 +53,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminPedidos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminPedidos/PedidoNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXFBlZGlkb05vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminPedidos/PedidoSuplementos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXFBlZGlkb1N1cGxlbWVudG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminRelatorioVendas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5SZWxhdG9yaW9WZW5kYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminRelatorioVendas/RelatorioVendasSimples.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5SZWxhdG9yaW9WZW5kYXNcUmVsYXRvcmlvVmVuZGFzU2ltcGxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/alaor/source/repos/repos/Casa-Do-Suplemento/Casa-Do-Suplemento/Casa-Do-Suplemento/Areas/Admin/Views/AdminSuplemento/Create.cshtml]
