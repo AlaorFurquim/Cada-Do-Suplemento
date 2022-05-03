@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rsrVNdG9+fc7ulsR3nv/NtDuDYYY6WXUEpQ9NJQ4MtA=",
+  "Hash": "B2Uoh3oD+uddFmd5kZA10qtNz+y7NjSghs4fLCJJJjA=",
   "Source": "Casa-Do-Suplemento",
   "BasePath": "_content/Casa-Do-Suplemento",
   "Mode": "Default",
@@ -340,6 +340,23 @@
       "OriginalItemSpec": "wwwroot\\images\\trash.png"
     },
     {
+      "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\upload.png",
+      "SourceId": "Casa-Do-Suplemento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
+      "BasePath": "_content/Casa-Do-Suplemento",
+      "RelativePath": "images/upload.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\upload.png"
+    },
+    {
       "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\user.png",
       "SourceId": "Casa-Do-Suplemento",
       "SourceType": "Discovered",
@@ -355,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\user.png"
+    },
+    {
+      "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\images\\view.png",
+      "SourceId": "Casa-Do-Suplemento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\",
+      "BasePath": "_content/Casa-Do-Suplemento",
+      "RelativePath": "images/view.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\view.png"
     },
     {
       "Identity": "C:\\Users\\alaor\\source\\repos\\repos\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\Casa-Do-Suplemento\\wwwroot\\js\\site.js",
