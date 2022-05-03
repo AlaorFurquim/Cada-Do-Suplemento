@@ -24,4 +24,8 @@
     <PackageReference Include="twitter.BootStrap" Version="3.0.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\produtos\" />
+  </ItemGroup>
+
 </Project>
